@@ -1,4 +1,4 @@
-import { Schema, model } from "mongoose";
+import { Schema, model, Types } from "mongoose";
 
 const studioSchema = new Schema(
     {
@@ -12,7 +12,7 @@ const studioSchema = new Schema(
         },
         stablished: {
             required: true,
-            type: Date,
+            type: String,
         },
         animes: [
             {
