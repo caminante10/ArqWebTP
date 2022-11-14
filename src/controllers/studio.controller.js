@@ -91,11 +91,3 @@ export const getStudioByID = function (req, res, next){
         .then(studio => res.json(studio))
         .catch(next);
 }
-
-export const addAnimeToStudio = function (req, res, next){
-    
-}
-
-export const listStudiosAnimes = function (req, res, next){
-    
-}
